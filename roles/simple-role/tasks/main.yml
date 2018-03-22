@@ -1,2 +1,3 @@
-- debug:
-    msg: Testing
+- name: Printing test message
+  debug:
+    msg: In role debug msg

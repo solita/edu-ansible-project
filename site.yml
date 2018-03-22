@@ -5,5 +5,9 @@
     - { role: simple-role, tags: [role] }
   tasks:
     - name: Shell testing
-      shell: uname -a
+      shell: date
+    - debug:
+        var: test_var
+    - debug:
+        var: test_var2
 

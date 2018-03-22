@@ -1,0 +1,2 @@
+test_var: this_is_from_group_vars_for_all
+test_var2: this_is_from_group_vars_for_all
