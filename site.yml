@@ -1,0 +1,10 @@
+---
+- name: Edu provision
+  hosts: edu
+  become: true
+  roles:
+    - { role: simple-role, tags: [role] }
+  tasks:
+    - name: Shell testing
+      shell: uname -a
+
