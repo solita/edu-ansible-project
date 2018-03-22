@@ -2,7 +2,7 @@
 - name: Edu provision
   hosts: edu
   roles:
-    - { role: simple-role, tags: [role] }
+    - { role: simple-role, tags: [simple] }
   tasks:
     - name: Shell testing
       shell: date
